@@ -1,0 +1,151 @@
+*{
+    overflow: hidden;
+}
+/* Navigation Section */
+.nav::before{
+    height: 200px;
+    width:100%;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+#navul{
+      display: flex;
+      margin: auto;
+}
+.nitems a{
+    padding: 0px 0px;
+    margin-top: 5px;
+}
+
+.nitems{
+    padding: 5px 7px;
+    font-size: 15px;
+    margin: auto;
+}
+#logo img{
+    width: 4em;
+    height: 4em;
+    margin: 0px 5px;
+}
+#navul li input{
+    width: 100px;
+    height: 2.5em;
+    font-size: 10px;
+    padding: 0px;
+}
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px; 
+    height: 342px;
+    margin-top: 10px;
+}
+#home::before{
+    height:480px;
+    width: 100%;
+} 
+.order{
+    width: 10rem;
+    height: 3rem;
+    margin: 1.5rem auto;
+    padding: 6px;
+}
+/* products Section */
+#products{
+    flex-direction: column;
+
+}
+#products::before{
+    height: 707px;
+    width: 100%;
+}
+.service{
+    flex-direction: column;
+    margin: 3px 0px;
+    padding: 0px 0px;
+}
+.service img{
+    height: 100px;
+    width: 150px;
+}
+.box1{
+    font-size: 16px;
+    height:100%;
+    width: 350px;
+    padding: 10px 10px;
+    margin: 10px auto;
+
+}
+
+/* Clients Section */
+#clients{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#clients::before{
+    height:324px;
+    width: 100%;
+}
+.clueB{
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.client img{
+    height: 70px;
+    width: 70px
+}
+/* Contact Section */
+#contact::before{
+    height:500px;
+    width: 100%;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 12px;
+    width: 280px;
+}
+#contact form input{
+    font-size: 16px;
+    padding: 5px 5px;
+    margin: 5px;
+}
+#contact form textarea{
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.btn2{
+    margin:10px auto;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+}
+.btn2:hover{
+    font-size: 28px;
+    
+}
+/* utility class */
+.h1-primary{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.h1-sec{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.box{
+    font-size: 18px;
+    display:flex;
+
+}
+.flex{
+    margin: 0px;
+}
